@@ -1,0 +1,248 @@
+@import "../../Sass/mixin";
+@import "../../Sass/variables";
+
+.career_container {
+  padding: 30px 0px;
+
+  background-image: url("../../assets/blogAssets/blogbg.svg");
+  background-repeat: no-repeat;
+  background-position: end;
+  background-size: cover;
+  &_content {
+    width: 75%;
+    margin: auto;
+    &_middle {
+      position: relative;
+      margin-top: 50px;
+      img {
+        width: 100%;
+      }
+      &_bbox {
+        // margin-top: -100px;
+        // z-index: 99999;
+        position: absolute;
+        bottom: -30px;
+        left: 0%;
+        right: 0%;
+        width: 958px;
+        height: 143px;
+        margin: auto;
+        background: linear-gradient(
+          180deg,
+          #ffffff 0%,
+          rgba(255, 255, 255, 0.4) 100%
+        );
+        box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(15px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          width: 80%;
+          margin: auto;
+          font-family: "Archivo Black";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 3.8rem;
+          line-height: 51px;
+          text-align: center;
+          background: linear-gradient(
+            91.52deg,
+            #4cc9f0 -9.54%,
+            #0000c8 35.19%,
+            #7209b7 107.13%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.advntage_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 141px;
+  & > *:not(:first-child) {
+    margin-top: 20px;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: $textprimary;
+  }
+}
+//*********************** Career Section1 *************************
+.career_bgImage {
+  background-image: url("../../assets/careerAssets/bgcareer2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-color: #0000c8;
+}
+//*********************** Career Section1 *************************
+
+.career_section1 {
+  padding: 1rem 0rem;
+  margin-top: 82px;
+  // background-color: #4cc9f0;
+  &_content {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    &_left {
+      width: 57.3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 37px;
+        letter-spacing: -0.03em;
+        color: #0000c8;
+      }
+      &_cardbox {
+        width: 37.8rem;
+        height: 42.8rem;
+        padding: 2.5rem;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.17) 0%,
+          rgba(255, 255, 255, 0.068) 100%
+        );
+        box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(2.5px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 30px;
+
+        h1 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.8rem;
+          line-height: 32px;
+          text-align: justify;
+          letter-spacing: -0.03em;
+          color: #fafafa;
+        }
+        ul {
+          margin-top: 3rem;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.8rem;
+          line-height: 32px;
+          text-align: justify;
+          letter-spacing: -0.03em;
+          color: #fafafa;
+          list-style-position: inside;
+          li {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+    &_right {
+      width: 57.3rem;
+      & > *:not(:first-child) {
+        margin-top: 2.5rem;
+      }
+    }
+  }
+}
+
+//*********************** Career Section2 *************************
+
+.career_section2 {
+  padding: 1rem 0rem;
+  margin-top: 150px;
+  &_content {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    &_left {
+      width: 50.6rem;
+      & > *:not(:first-child) {
+        margin-top: 105px;
+      }
+    }
+    &_right {
+      width: 50.8rem;
+      & > *:not(:first-child) {
+        margin-top: 105px;
+      }
+    }
+  }
+}
+
+.careerSupport {
+  // background-color: lightblue;
+  &_top {
+    display: flex;
+    align-items: center;
+    & > *:not(:first-child) {
+      margin-left: 2rem;
+    }
+    h1 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.4rem;
+      line-height: 37px;
+      letter-spacing: -0.03em;
+      color: #0000c8;
+    }
+  }
+  &_bottom {
+    margin-top: 2.5rem;
+  }
+}
+
+.desc {
+  width: 75%;
+  margin: auto;
+  margin-top: 105px;
+  & > *:not(:first-child) {
+    margin-top: 2.5rem;
+  }
+}
+.backbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  button {
+    // padding: 1.5rem 3.2rem;
+    width: 196px;
+    height: 42px;
+    border: 1px solid #0000c8;
+    border-radius: 70px;
+    background: none;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 32px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #0000c8;
+    cursor: pointer;
+  }
+}
